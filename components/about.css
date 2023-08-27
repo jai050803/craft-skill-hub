@@ -1,0 +1,71 @@
+/* About.css */
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .about-heading {
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .circle {
+    width: 110%;
+    height: 110%;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../public/pictures/founder2.jpeg");
+    background-size: cover;
+  }
+  
+  .rotating-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 110%;
+    border: 2px solid blue;
+    border-radius: 50%;
+    animation: rotate 4s linear infinite;
+  }
+
+  
+  .social-links {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left:30px;
+  }
+  
+  .icon-links {
+    margin-top: 10px;
+  }
+  
+  .icon-links a {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .icon-links a:hover {
+    color: blue;
+  }
+  
